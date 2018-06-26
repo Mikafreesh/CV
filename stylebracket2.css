@@ -1,0 +1,257 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 70%;
+
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    body {
+      font-size: 120%;
+    }
+  }
+
+  font-size: 100%;
+  position: relative;
+  position: absolute;
+  font-family: fantasy;
+  background-image: url(image/mur.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  width:auto;
+  height:auto;
+
+
+
+}
+
+.header {
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  padding-top: 120px;
+  text-align: center;
+  margin-right:100px;
+}
+
+
+#nom {
+  position: relative;
+  padding-top: 5%;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px, 0 0 1em, 0 0 0.2em black;
+  color: whitesmoke;
+  text-align: center;
+  padding-right: 200px;
+  padding-right: 20px;
+  background-image: url("image/lol.jpg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 130em;
+  height: 18em;
+  margin-bottom: 100px;
+
+}
+
+#nav1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding-left: 1em;
+  padding-left: 2em;
+  padding-right: 1em;
+  float: left;
+  margin: 10px 10px 10px 30px;
+  margin: 10px 5px 10px 5px;
+  background-image: url(image/businessman.jpg);
+  opacity: ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  border: 5px black double;
+}
+
+#nav2 {
+  width: 40%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  float: left;
+  margin: 10px 20px 20px 10px;
+  border: 5px black double;
+}
+
+#nav3 {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -38px;
+  font-family: 'Titillium Web',
+  sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 1em;
+  padding-left: 10px;
+  float: left;
+  border: 5px black double;
+}
+
+fieldset {
+  height: 15px;
+  position: relative;
+  float: left;
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+
+}
+
+img {
+  position: relative;
+  padding: 30px;
+  clear: both;
+  position: absolute center;
+  margin-left: 230px;
+}
+
+label {
+  position: relative;
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  width: 100px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin: 2px;
+  border: 2px black solid;
+  border-radius: 10px 15px 10px 15px;
+  background-color: #d5e1df;
+  text-align: center;
+  font-size: 17px;
+
+}
+
+em {
+  position: relative;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: red;
+}
+
+
+.button1 {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: left;
+  padding-left: 10px;
+
+}
+
+.button2 {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: left;
+  margin-top: 6px;
+
+}
+
+
+.formation {
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: auto;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1em;
+  width: auto;
+}
+
+.experience {
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+
+}
+
+.info {
+  font-family: 'Titillium Web', sans-serif;
+  color: #ff0000;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2em;
+
+}
+
+.competence {
+  font-family: 'Titillium Web', sans-serif;
+  color: #ff0000;
+  text-align: center;
+  margin-top: auto;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 1em;
+  width: auto;
+}
+
+.interet {
+  font-family: 'Titillium Web', sans-serif;
+  color: #ff0000;
+  text-align: center;
+  margin-top: auto;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 1em;
+  line-height: 2em;
+  width: auto;
+}
+
+h1 {
+  border-width: 3px;
+  border-color: black;
+  font-size: 2.5em;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+
+
+}
+
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  font-size: large;
+  
+
+
+  h5 {
+    text-decoration: underline;
+    font-family: 'Titillium Web', sans-serif;
+  }
